@@ -4,6 +4,8 @@ import java.time.LocalTime;
 
 public interface WorkerInterface {
 
+    public static final int CONSTANT = 10;
+
     void goWork(int hours);
 
     void takeSalary();
